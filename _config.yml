@@ -4,7 +4,7 @@ email:       lee.joshua173@gmail.com
 author:      Joshua Lee
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         "https://joshhlee173.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
