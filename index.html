@@ -1,105 +1,25 @@
-<!-- ---
-layout: default
 ---
-{% assign posts_count = paginator.posts | size %}
-
-<div class="home">
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-          <p class="post-meta">
-	    {% if site.date_format %}
-	      {{ post.date | date: site.date_format }}
-	    {% else %}
-	      {{ post.date | date: "%b %-d, %Y" }}
-	    {% endif %}
-	  </p>
-          <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <span class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </span>
-        </div>
-      {% endfor %}
-    </div>
-
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
-  {% endif %}
-</div> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My Portfolio Website">
-    <title>My Portfolio</title>
-    <!-- Add your stylesheet here -->
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            color: #222;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin: 20px 0;
-        }
-        nav {
-            margin-top: 30px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-            margin: 0 10px;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #0056b3;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
+layout: default
+title: Home
+---
+<div class="container">
+    <section id="intro" class="intro-section">
         <h1>Welcome to My Portfolio</h1>
-        <p>Hello! I'm [Your Name], a [Your Profession/Field]. This is where I showcase my projects, skills, and achievements.</p>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <footer>
-            &copy; <script>document.write(new Date().getFullYear());</script> [Your Name]. All rights reserved.
-        </footer>
-    </div>
-</body>
-</html>
+        <p>Hello! I'm [Your Name], a [Your Profession/Field]. I specialize in [Your Specialty]. Here, you'll find some of my favorite projects.</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-list">
+            {% for project in site.data.projects %}
+            <div class="project-item">
+                <a href="{{ project.url | relative_url }}" class="project-title">
+                    <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail" class="project-thumbnail">
+                    <h3>{{ project.title }}</h3>
+                </a>
+                <p class="project-description">{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>

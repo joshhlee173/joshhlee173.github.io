@@ -1,0 +1,14 @@
+- title: "Project 1"
+  description: "A short description of Project 1."
+  image: "/images/project1-thumbnail.jpg"
+  url: "https://sites.google.com/stanford.edu/rosnificentroboteers"
+
+- title: "Project 2"
+  description: "A short description of Project 2."
+  image: "/images/project2-thumbnail.jpg"
+  url: "/projects/project2/"
+
+- title: "Project 3"
+  description: "A short description of Project 3."
+  image: "/images/project3-thumbnail.jpg"
+  url: "/projects/project3/"
