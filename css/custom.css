@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*!
+* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
+* Crafted with <3 by John Otander (@4lpine) - ©2015-2021 John Otander
+* @author John Otander <johnotander@gmail.com> (https://johno.com/)
+* @link https://github.com/johno/pixyll
+* @license MIT
+*/
+
+@import 'variables';
+@import 'basscss';
+@import 'base';
+@import 'links';
+@import 'positions';
+@import 'clearfix';
+@import 'code';
+@import 'forms';
+@import 'typography';
+@import 'header';
+@import 'tables';
+@import 'animations';
+@import 'footer';
+@import 'social-icons';
+@import 'blockquotes';
+@import 'posts';
+@import 'media-queries';
+@import 'gists';
+@import 'measure';
+@import 'pagination';
+
+/* Custom styles for project layout */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between projects */
+}
+
+.project-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between text and image */
+    border-bottom: 1px solid #ddd; /* Optional: separates projects visually */
+    padding-bottom: 20px;
+}
+
+.project-text {
+    flex: 1; /* Take up available space */
+}
+
+.project-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    max-width: 150px; /* Set a maximum width for the image */
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
+}
+
+.project-title {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-title:hover {
+    text-decoration: underline; /* Optional: visual feedback on hover */
+}
+
+.project-description {
+    font-size: 14px; /* Adjust as needed */
+    line-height: 1.5;
+}
