@@ -1,14 +1,39 @@
-- title: "Project 1"
-  description: "A short description of Project 1."
-  image: "/images/project1-thumbnail.jpg"
+- title: "Collaborative Robotics (ME326) Winter 2024"
+  description: |
+    The goal of this project is for two robots to collaborate for a resource gathering task without the use of digital communication. Each team will only be able to manipulate blocks on their side and the shared
+    center start region. The teaching team provides configuration of blocks for each team (this will be
+    separate and known only by the team given the pattern). The team will build the pattern (e.g. N of
+    blue, M of yellow, K of red, G of green blocks), near the specified Apriltag within the specified radius.
+    Teams will then need to construct the pattern built by the other team by visually observing their
+    gathering and replicating it on their side of the line under the second Apriltag.
+  image: "/images/me334_mini.jpeg"
   url: "https://sites.google.com/stanford.edu/rosnificentroboteers"
 
-- title: "Project 2"
-  description: "A short description of Project 2."
-  image: "/images/project2-thumbnail.jpg"
-  url: "/projects/project2/"
+- title: "Salisbury Cabled Robotic Arm"
+  description: |
+    The purpose of this project is to develop a lightweight robotic arm with mechanically variable stiffness.
+    It is intended for use in physical human/robot interactions (pHRI) where the moving mass must be minimized
+    to avoid injury due to inadvertent impact and where the intrinsic stiffness can be controlled to allow intentional
+    contact with a human to be maintained safely. The design employs a cabled transmission to allow the actuators
+    to be placed at the base of the arm rather than at the joints, minimizing moving mass.  The particular cabling 
+    scheme we use is known as an "N+1" approach, which has two advantages.  It reduces the number of cables needed to 
+    actuate an N degree-of-freedom to be N+1 (rather than 2N in traditional cable schemes).  The extra degree of freedom 
+    in tendon tensions can be used to adjust the internal loading on the cables (by varying the homogeneous component of 
+    the cables' tensions).  Further, if the tendons individually become mechanically more stiff under load then the overall 
+    joint stiffnesses in the system can be modulated by adjusting the internal loading (aka co-activation).
 
-- title: "Project 3"
-  description: "A short description of Project 3."
-  image: "/images/project3-thumbnail.jpg"
-  url: "/projects/project3/"
+  image: "/images/salisbury_mini.jpeg"
+  url: "/projects/salisbury.md"
+
+- title: "ASL Freeflyer"
+  description: |
+    This project explores control strategies for free-flying robots in confined 2D spaces with three degrees of freedom. 
+    The focus is on optimizing gas thruster usage while addressing uncertain dynamics. Two advanced methods, Branch and Bound
+     and Monte Carlo Tree Search (MCTS), were compared against baseline and optimized controllers. The results highlight key
+    trade-offs: PWM controllers are stable but inefficient with thruster use, while MPC controllers perform well but are 
+    computationally intensive. Branch and Bound struggled with random sampling inefficiencies, whereas MCTS showed promise, 
+    optimizing thruster use and maintaining stability but with higher state errors and slower convergence. The study emphasizes
+     balancing computational efficiency, system stability, and optimization, offering insights into refining control policies 
+     for confined-space robotics.
+  image: "/images/freeflyer.jpeg"
+  url: "/projects/freeflyer.md"
