@@ -6,7 +6,7 @@
     blue, M of yellow, K of red, G of green blocks), near the specified Apriltag within the specified radius.
     Teams will then need to construct the pattern built by the other team by visually observing their
     gathering and replicating it on their side of the line under the second Apriltag.
-  image: "../images/me334_mini.jpeg"
+  image: "/images/me334_mini.jpeg"
   url: "https://sites.google.com/stanford.edu/rosnificentroboteers"
 
 - title: "Salisbury Cabled Robotic Arm"
@@ -22,7 +22,7 @@
     the cables' tensions).  Further, if the tendons individually become mechanically more stiff under load then the overall 
     joint stiffnesses in the system can be modulated by adjusting the internal loading (aka co-activation).
 
-  image: "../images/salisbury_mini.jpg"
+  image: "/images/salisbury_mini.jpg"
   url: "/projects/salisbury_mini.md"
 
 - title: "ASL Freeflyer"
@@ -35,5 +35,5 @@
     optimizing thruster use and maintaining stability but with higher state errors and slower convergence. The study emphasizes
      balancing computational efficiency, system stability, and optimization, offering insights into refining control policies 
      for confined-space robotics.
-  image: "../images/freeflyer_mini.jpg"
+  image: "/images/freeflyer_mini.jpg"
   url: "/projects/freeflyer.md"
