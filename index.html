@@ -23,6 +23,21 @@ title: Home
         </div>
     </section>
 
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+      <div class="Experience-list">
+          {% for experience in site.data.projects %}
+          <div class="experience-item">
+              <a href="{{ experience.url | relative_url }}" class="experience-title">
+                  <img src="{{ experience.image | relative_url }}" alt="{{ experience.title }} thumbnail" class="experience-thumbnail">
+                  <h3>{{ experience.title }}</h3>
+              </a>
+              <p class="experience-description">{{ experience.description }}</p>
+          </div>
+          {% endfor %}
+      </div>
+  </section>
+
     <footer id="contact" class="contact-section">
         <h2>Contact & Links</h2>
         <ul class="contact-links">
