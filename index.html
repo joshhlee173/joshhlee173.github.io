@@ -1,26 +1,28 @@
-<section id="projects" class="projects-section">
-  <h2>Projects</h2>
-  <div class="project-list">
-      {% for project in site.data.projects %}
-      <div class="project-item">
-          <div class="project-content">
-              <div class="project-text">
-                  <a href="{{ project.url | relative_url }}" class="project-title">
-                      <h3>{{ project.title }}</h3>
-                  </a>
-                  <p class="project-description">{{ project.description }}</p>
-              </div>
-              <div class="project-image">
-                  <a href="{{ project.url | relative_url }}">
-                      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail" class="project-thumbnail">
-                  </a>
-              </div>
-          </div>
-      </div>
-      {% endfor %}
-  </div>
-</section>
+---
+layout: default
+title: Home
+---
+<div class="container">
+    <section id="intro" class="intro-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm Joshua Lee, a 2nd year Masters student at Stanford. I am studying in Mechanical Engineering specializing in Automatic Controls and Robotics. Here, you'll find some of my favorite projects.</p>
+    </section>
 
+    <div class="project-list">
+      <div class="project-item">
+        <div class="project-text">
+          <h2 class="project-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h2>
+          <p class="project-description">
+            {{ project.description }}
+          </p>
+        </div>
+        <div class="project-image">
+          <img class="project-thumbnail" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        </div>
+      </div>
+    </div>
 
     <section id="experience" class="experience-section">
       <h2>Experience</h2>
@@ -78,4 +80,50 @@
 .contact-links a:hover {
     color: #0056b3;
 }
+
+/* Custom styles for project layout */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between projects */
+}
+
+.project-item {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Space between text and image */
+    border-bottom: 1px solid #ddd; /* Optional: separates projects visually */
+    padding-bottom: 20px;
+}
+
+.project-text {
+    flex: 1; /* Take up available space for text */
+}
+
+.project-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    max-width: 150px; /* Set a maximum width for the image */
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
+}
+
+.project-title {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-title:hover {
+    text-decoration: underline; /* Optional: visual feedback on hover */
+}
+
+.project-description {
+    font-size: 14px; /* Adjust as needed */
+    line-height: 1.5;
+}
+
 </style>
