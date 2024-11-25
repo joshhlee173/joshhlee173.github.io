@@ -28,7 +28,7 @@ experience:
     company_logo:
     location: Huntington Beach, CA
     date_start: '15 Jun 2024'
-    date_end: '1 Oct 2024'
+    date_end: '01 Oct 2024'
     description:
 
   - title: Mechatronics Intern
@@ -37,7 +37,7 @@ experience:
     company_logo:
     location: Mission Viejo, CA
     date_start: '15 Jan 2023'
-    date_end: '1 Oct 2023'
+    date_end: '01 Oct 2023'
     description:
 
   - title: Hardware Intern

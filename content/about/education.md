@@ -27,7 +27,7 @@ experience:
     company_url: ''
     company_logo:
     location: Palo Alto, California
-    date_start: '1 Oct 2023'
+    date_start: '01 Oct 2023'
     date_end: '15 Mar 2025'
     description:
 
@@ -36,7 +36,7 @@ experience:
     company_url: ''
     company_logo:
     location: Pasadena, California
-    date_start: '1 Oct 2019'
+    date_start: '01 Oct 2019'
     date_end: '15 Jun 2023'
 
 design:
