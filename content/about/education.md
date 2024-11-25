@@ -32,7 +32,7 @@ experience:
     description:
 
   - title: B.S. Mechanical Engineering
-    company: California Institute of Technolog
+    company: California Institute of Technology
     company_url: ''
     company_logo:
     location: Pasadena, California
