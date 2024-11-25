@@ -28,7 +28,7 @@ experience:
     company_logo:
     location: Palo Alto, California
     date_start: '2023-10-01'
-    date_end: '2025-03'
+    date_end: '2025-03-15'
     description: |2-
         * Dissertation on Y
         * Basketball team
@@ -40,7 +40,7 @@ experience:
     company_logo:
     location: Pasadena, California
     date_start: '2019-10-1'
-    date_end: '2023-06'
+    date_end: '2023-06-15'
 
 design:
   columns: '1'
