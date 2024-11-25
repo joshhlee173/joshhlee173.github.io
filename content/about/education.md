@@ -27,7 +27,7 @@ experience:
     company_url: ''
     company_logo:
     location: Palo Alto, California
-    date_start: '2023-10'
+    date_start: '2023-10-01'
     date_end: '2025-03'
     description: |2-
         * Dissertation on Y
@@ -39,7 +39,7 @@ experience:
     company_url: ''
     company_logo:
     location: Pasadena, California
-    date_start: '2019-10'
+    date_start: '2019-10-1'
     date_end: '2023-06'
 
 design:
