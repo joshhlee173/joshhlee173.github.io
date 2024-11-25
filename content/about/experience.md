@@ -28,7 +28,7 @@ experience:
     company_logo:
     location: Huntington Beach, CA
     date_start: '15 Jun 2024'
-    date_end: 'OCT 2024'
+    date_end: '1 Oct 2024'
     description:
 
   - title: Mechatronics Intern
@@ -36,8 +36,8 @@ experience:
     company_url: 'https://fieldai.com/'
     company_logo:
     location: Mission Viejo, CA
-    date_start: 'MAY 2023'
-    date_end: 'OCT 2023'
+    date_start: '15 Jan 2023'
+    date_end: '1 Oct 2023'
     description:
 
   - title: Hardware Intern
@@ -45,8 +45,8 @@ experience:
     company_url: 'https://www.jpl.nasa.gov/'
     company_logo:
     location: Pasadena, CA
-    date_start: 'MAY 2021'
-    date_end: 'SEP 2022'
+    date_start: '15 May 2021'
+    date_end: '15 Sep 2022'
     description:
 
 design:

@@ -27,8 +27,8 @@ experience:
     company_url: ''
     company_logo:
     location: Palo Alto, California
-    date_start: 'OCT 2023'
-    date_end: 'MAR 2025'
+    date_start: '1 Oct 2023'
+    date_end: '15 Mar 2025'
     description:
 
   - title: B.S. Mechanical Engineering
@@ -36,8 +36,8 @@ experience:
     company_url: ''
     company_logo:
     location: Pasadena, California
-    date_start: 'OCT 2019'
-    date_end: 'JUN 2023'
+    date_start: '1 Oct 2019'
+    date_end: '15 Jun 2023'
 
 design:
   columns: '1'
