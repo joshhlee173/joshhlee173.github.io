@@ -27,20 +27,17 @@ experience:
     company_url: ''
     company_logo:
     location: Palo Alto, California
-    date_start: '2023-10-01'
-    date_end: '2025-03-15'
-    description: |2-
-        * Dissertation on Y
-        * Basketball team
-        * DJ club
+    date_start: 'OCT 2023'
+    date_end: 'MAR 2025'
+    description:
 
   - title: B.S. Mechanical Engineering
     company: California Institute of Technolog
     company_url: ''
     company_logo:
     location: Pasadena, California
-    date_start: '2019-10-01'
-    date_end: '2023-06-15'
+    date_start: 'OCT 2019'
+    date_end: 'JUN 2023'
 
 design:
   columns: '1'

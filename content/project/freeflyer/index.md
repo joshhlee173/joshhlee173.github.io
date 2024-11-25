@@ -1,8 +1,8 @@
 ---
-title: Recommendation Systems
-summary: Write about your project here...
+title: ASL Freeflyer
+summary: optimizing gas thruster usage while addressing uncertain dynamics. compaing two different advanced methods, branch and bound and monte carlo tree search (MCTS).
 tags:
-  - ML
-date: 2022-01-01
+  - proj
+date: 2023-12-15
 external_link: http://github.com
 ---
