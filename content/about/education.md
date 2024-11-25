@@ -39,7 +39,7 @@ experience:
     company_url: ''
     company_logo:
     location: Pasadena, California
-    date_start: '2019-10-1'
+    date_start: '2019-10-01'
     date_end: '2023-06-15'
 
 design:
