@@ -35,7 +35,7 @@ experience:
         * DJ club
 
   - title: B.S. Mechanical Engineering
-    company: California Institute of Technology
+    company: California Institute of Technolog
     company_url: ''
     company_logo:
     location: Pasadena, California
