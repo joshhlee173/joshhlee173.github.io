@@ -27,7 +27,7 @@ experience:
     company_url: 'https://machindustries.com/'
     company_logo:
     location: Huntington Beach, CA
-    date_start: 'JUN 2024'
+    date_start: '15 Jun 2024'
     date_end: 'OCT 2024'
     description:
 
